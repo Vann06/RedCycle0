@@ -11,10 +11,7 @@ package Clases;
  * @author Ricardo Godinez 23247
  * 
  * 
- * Su objetivo es modelar el contenedor de basura que tiene un usuario.
- * 
- * 
- * 
+ * Su objetivo es modelar el contenedor de basura que tiene un usuario. 
  * 
  * 
  * 
