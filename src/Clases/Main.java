@@ -17,6 +17,17 @@ package Clases;
  * */
 public class Main {
 	
+	//Atributos
+	private Driver driver;
 	
 
+	//Metodos
+	public static void main(String[] args) {
+		
+	}
+	
+	
+	public void menuPrincipal(){
+		
+	}
 }
