@@ -4,5 +4,5 @@
 /**
  * 
  */
-module RedCycle1 {
+module RedCycle0 {
 }
