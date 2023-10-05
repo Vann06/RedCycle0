@@ -6,10 +6,17 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.SwingConstants;
+import javax.swing.JSplitPane;
+import java.awt.Color;
+import java.awt.Toolkit;
 
 public class Bienvenida extends JFrame {
 
-	private JPanel contentPane;
+	private static final long serialVersionUID = 1L;
+	private JTextField textField;
 
 	/**
 	 * Launch the application.
@@ -31,12 +38,18 @@ public class Bienvenida extends JFrame {
 	 * Create the frame.
 	 */
 	public Bienvenida() {
+		setIconImage(Toolkit.getDefaultToolkit().getImage(""));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 450, 300);
-		contentPane = new JPanel();
-		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-
-		setContentPane(contentPane);
+		setBounds(100, 100, 511, 380);
+		getContentPane().setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel("Nombre");
+		lblNewLabel.setBounds(50, 211, 61, 16);
+		getContentPane().add(lblNewLabel);
+		
+		textField = new JTextField();
+		textField.setBounds(120, 206, 130, 26);
+		getContentPane().add(textField);
+		textField.setColumns(10);
 	}
-
 }
