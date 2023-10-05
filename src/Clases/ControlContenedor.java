@@ -1,4 +1,7 @@
 package Clases;
+
+import java.util.Date;
+
 /*
  * POO 2 Semestre
  * Facultad de Ingenieria
@@ -16,4 +19,39 @@ package Clases;
  * */
 public class ControlContenedor {
 
+	//Atributos
+	private Contenedor contenedor;
+	private Date fecha;
+	
+	
+	@Override
+	public String toString() {
+		return "ControlContenedor [contenedor=" + contenedor + ", fecha=" + fecha + "]";
+	}
+	
+	//Constructor
+	public ControlContenedor(Contenedor contenedor, Date fecha) {
+		super();
+		this.contenedor = contenedor;
+		this.fecha = fecha;
+	}
+	
+	
+	//Getters y Setters
+	public Contenedor getContenedor() {
+		return contenedor;
+	}
+	public void setContenedor(Contenedor contenedor) {
+		this.contenedor = contenedor;
+	}
+	public Date getFecha() {
+		return fecha;
+	}
+	public void setFecha(Date fecha) {
+		this.fecha = fecha;
+	}
+	
+	
+	
+	
 }

@@ -14,11 +14,6 @@ package Clases;
  * los distintos módulos del sistema de forma amigable y comprensible.
  * 
  * 
- * 
- * 
- * 
- * 
- * 
  * */
 public class Main {
 	
