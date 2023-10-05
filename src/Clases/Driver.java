@@ -1,4 +1,5 @@
 package Clases;
+
 /*
  * POO 2 Semestre
  * Facultad de Ingenieria
@@ -14,9 +15,68 @@ package Clases;
  * programa, es crucial porque concentra la lógica primordial del sistema.
  * 
  * */
+import java.util.ArrayList;
+
 public class Driver {
 
+	//Atributos
+	private Usuario usuario;
+	private ArrayList<Clasificacion> clasificacionesBasura;
+	
+
+	//Metodos
 	
 	
+	//Getters y Setters
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
+	}
+
+
+
+	public ArrayList<Clasificacion> getClasificacionesBasura() {
+		return clasificacionesBasura;
+	}
+
+
+
+	public void setClasificacionesBasura(ArrayList<Clasificacion> clasificacionesBasura) {
+		this.clasificacionesBasura = clasificacionesBasura;
+	}
+	
+	
+
+	public Driver(Usuario usuario, ArrayList<Clasificacion> clasificacionesBasura) {
+		super();
+		this.usuario = usuario;
+		this.clasificacionesBasura = clasificacionesBasura;
+	}
+	
+	
+	/**
+	 * 
+	 * @param nombre
+	 * @param correo
+	 * @param password
+	 * @param contenedoresBasura
+	 */
+	public void guardarUsuario(String nombre, String correo, String password, Contenedor contenedoresBasura){
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+
 	
 }
