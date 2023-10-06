@@ -14,7 +14,6 @@ package Clases;
  * Su objetivo es modelar el contenedor de basura que tiene un usuario. 
  * 
  * 
- * 
  * */
 public class Contenedor {
 

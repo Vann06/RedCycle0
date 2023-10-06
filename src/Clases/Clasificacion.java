@@ -10,9 +10,9 @@ package Clases;
  * @author Vianka Castro 23201
  * @author Ricardo Godinez 23247
  * 
- * Modela un tipo de clasificación de basura específico,
- * permite mostrar información relevante al usuario para educarlo 
- * respecto a las diferentes categorías que existen para clasificar los residuos.
+ *  Modela un tipo de clasificación de basura específico,
+ *  permite mostrar información relevante al usuario para educarlo 
+ *  respecto a las diferentes categorías que existen para clasificar los residuos.
  * 
  * */
 
