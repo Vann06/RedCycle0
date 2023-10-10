@@ -76,7 +76,7 @@ public class Clasificacion {
     
         @Override
         public String toString() {
-            return "Clasificacion{" +
+            return "Clasificacio{" +
                     "casificacion='" + casificacion + '\'' +
                     ", descripcion='" + descripcion + '\'' +
                     ", datoNegativo='" + datoNegativo + '\'' +
