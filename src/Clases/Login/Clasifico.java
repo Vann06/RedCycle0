@@ -16,7 +16,7 @@ public class Clasifico extends JPanel {
 		setBackground(new Color(69, 153, 196));
 		setLayout(null);
 		
-		JLabel lblNewLabel = new JLabel("Los voy a matar");
+		JLabel lblNewLabel = new JLabel(":0");
 		lblNewLabel.setFont(new Font("Lucida Grande", Font.PLAIN, 61));
 		lblNewLabel.setBounds(0, 59, 524, 163);
 		add(lblNewLabel);
