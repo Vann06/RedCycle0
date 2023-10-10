@@ -20,7 +20,7 @@ public class Contenedor {
 	
 	//Atributos 
 	private String clasificacion = "";
-	private float litros = 0;
+	private float litros = 0.0f;
 	private int cantResiduos = 0;
 	
 
@@ -54,10 +54,15 @@ public class Contenedor {
 	
 	//Constructor
 	public Contenedor(String clasificacion, float litros, int cantResiduos) {
-		super();
 		this.clasificacion = clasificacion;
 		this.litros = litros;
 		this.cantResiduos = cantResiduos;
+	}
+	
+	public Contenedor() {
+		this.clasificacion = "";
+		this.litros = 0.0f;
+		this.cantResiduos = 0;
 	}
 
 	

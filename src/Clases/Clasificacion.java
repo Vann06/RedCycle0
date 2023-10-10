@@ -32,6 +32,11 @@ public class Clasificacion {
         }
     
         public Clasificacion() {
+        	this.casificacion = "";
+            this.descripcion = "";
+            this.datoNegativo = "";
+            this.datoPositivo = "";
+            this.arrayArtículos = new ArrayList<>();
         }
     
         public void setCasificacion(String casificacion) {

@@ -67,12 +67,21 @@ public class Usuario {
 	
 	//Constructor
 	public Usuario(String nombre, String correo, String password, ArrayList<Contenedor> contedenoresBasura) {
-		super();
 		this.nombre = nombre;
 		this.correo = correo;
 		this.password = password;
 		this.contedenoresBasura = contedenoresBasura;
 	}
 	
+	public Usuario() {
+		this.nombre = "";
+		this.correo = "";
+		this.password = "";
+		this.contedenoresBasura = new ArrayList<>();
+	}
 	
-}
+	}
+	          
+	
+	
+

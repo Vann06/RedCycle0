@@ -53,9 +53,15 @@ public class Driver {
 	
 
 	public Driver(Usuario usuario, ArrayList<Clasificacion> clasificacionesBasura) {
-		super();
 		this.usuario = usuario;
 		this.clasificacionesBasura = clasificacionesBasura;
+	}
+	
+	public Driver() {
+		usuario = new Usuario();
+		//falta llenar el array clasificacionesBasura segun los tipos personalizados que seleccionó el usuario
+		//debe de hacerse por defecto 
+		clasificacionesBasura = new ArrayList<>();
 	}
 	
 	

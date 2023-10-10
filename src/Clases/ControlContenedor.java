@@ -31,9 +31,13 @@ public class ControlContenedor {
 	
 	//Constructor
 	public ControlContenedor(Contenedor contenedor, Date fecha) {
-		super();
 		this.contenedor = contenedor;
 		this.fecha = fecha;
+	}
+	
+	public ControlContenedor() {
+		this.contenedor = new Contenedor();
+		this.fecha = new Date();
 	}
 	
 	
