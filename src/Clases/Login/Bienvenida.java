@@ -75,6 +75,12 @@ public class Bienvenida extends JFrame {
 		mnNewMenu.add(mntmNewMenuItem);
 		
 		JMenuItem mntmNewMenuItem_1 = new JMenuItem("Mis Residuos");
+		mntmNewMenuItem.addActionListener(new ActionListener() {
+			public void  actionPerformed(ActionEvent e) {
+				MisResiduos ventanaMisResiduos = new MisResiduos();
+				nuevoPanel(ventanaMisResiduos);
+			}
+		});
 		mnNewMenu.add(mntmNewMenuItem_1);
 		
 		

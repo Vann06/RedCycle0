@@ -13,7 +13,6 @@ package Clases;
  *  Modela un tipo de clasificación de basura específico,
  *  permite mostrar información relevante al usuario para educarlo 
  *  respecto a las diferentes categorías que existen para clasificar los residuos.
- * 
  * */
 
 public class Clasificacion {
