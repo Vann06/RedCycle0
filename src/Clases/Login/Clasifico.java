@@ -16,9 +16,9 @@ public class Clasifico extends JPanel {
 		setBackground(new Color(69, 153, 196));
 		setLayout(null);
 		
-		JLabel lblNewLabel = new JLabel(":0");
+		JLabel lblNewLabel = new JLabel("Text 1.1");
 		lblNewLabel.setFont(new Font("Lucida Grande", Font.PLAIN, 61));
-		lblNewLabel.setBounds(0, 59, 524, 163);
+		lblNewLabel.setBounds(10, 53, 524, 163);
 		add(lblNewLabel);
 
 	}

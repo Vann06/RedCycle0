@@ -16,15 +16,13 @@ package Clases;
  * 
  * */
 import java.util.ArrayList;
+import java.util.Date;
 
 public class Driver {
 
 	//Atributos
 	private Usuario usuario;
 	private ArrayList<Clasificacion> clasificacionesBasura;
-	
-
-	//Metodos
 	
 	
 	//Getters y Setters
@@ -50,7 +48,7 @@ public class Driver {
 		this.clasificacionesBasura = clasificacionesBasura;
 	}
 	
-	
+	//constructores
 
 	public Driver(Usuario usuario, ArrayList<Clasificacion> clasificacionesBasura) {
 		this.usuario = usuario;
@@ -65,6 +63,7 @@ public class Driver {
 	}
 	
 	
+	
 	/**
 	 * 
 	 * @param nombre
@@ -77,11 +76,34 @@ public class Driver {
 		
 	}
 	
+	public void buscarResiduo(String residuo) {
+		
+	}
 	
+	public void ingresarResiduos(String clasificación, int cantidadResiduos) {
+		
+	}
 	
+	public void mostrarMisResiduos() {
+		
+	}
 	
+	public void mostrarEstadísticas(Date fecha) {
+		
+	}
 	
+	public String alertaContenedores(String clasificación) {
+		String alerta= "";
+		return alerta;
+	}
 	
+	public void actualizarControlContenedor() {
+		
+	}
+	
+	public void calcularProgresoMensual() {
+		
+	}
 	
 
 	
