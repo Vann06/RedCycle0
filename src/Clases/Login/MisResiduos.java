@@ -10,6 +10,7 @@ import javax.swing.JComboBox;
 import javax.swing.JButton;
 
 public class MisResiduos extends JPanel {
+	private static final long serialVersionUID = 1L;
 	private JTextField txtCantResiduos;
 
 	/**
@@ -96,9 +97,10 @@ public class MisResiduos extends JPanel {
 		add(lbContenedor1);
 		
 		JButton btnGuardar = new JButton("GUARDAR");
+		btnGuardar.setOpaque(true);
 		btnGuardar.setBackground(new Color(11, 187, 19));
 		btnGuardar.setFont(new Font("Tahoma", Font.PLAIN, 14));
-		btnGuardar.setBounds(205, 356, 98, 31);
+		btnGuardar.setBounds(195, 356, 108, 31);
 		add(btnGuardar);
 		
 		txtCantResiduos = new JTextField();
