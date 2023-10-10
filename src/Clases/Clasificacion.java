@@ -14,19 +14,21 @@ package Clases;
  *  permite mostrar información relevante al usuario para educarlo 
  *  respecto a las diferentes categorías que existen para clasificar los residuos.
  * */
-
+import java.util.ArrayList;
 public class Clasificacion {
 
         private String casificacion;
         private String descripcion;
         private String datoNegativo;
         private String datoPositivo;
+        private ArrayList<String> arrayArtículos;
     
-        public Clasificacion(String casificacion, String descripcion, String datoNegativo, String datoPositivo) {
+        public Clasificacion(String casificacion, String descripcion, String datoNegativo, String datoPositivo,ArrayList<String> arrayArtículos) {
             this.casificacion = casificacion;
             this.descripcion = descripcion;
             this.datoNegativo = datoNegativo;
             this.datoPositivo = datoPositivo;
+            this.arrayArtículos = arrayArtículos;
         }
     
         public Clasificacion() {
@@ -63,11 +65,24 @@ public class Clasificacion {
         public String getDatoPositivo() {
             return datoPositivo;
         }
+        
+        public ArrayList<String> getArrayArtículos() {
+            return arrayArtículos;
+        }
+
+        public void setArrayArtículos(ArrayList<String> arrayArtículos) {
+            this.arrayArtículos = arrayArtículos;
+        }
     
         @Override
         public String toString() {
-            return "Clasificacion [casificacion=" + casificacion + ", descripcion=" + descripcion + ", datoNegativo="
-                    + datoNegativo + ", datoPositivo=" + datoPositivo + "]";
+            return "Clasificacion{" +
+                    "casificacion='" + casificacion + '\'' +
+                    ", descripcion='" + descripcion + '\'' +
+                    ", datoNegativo='" + datoNegativo + '\'' +
+                    ", datoPositivo='" + datoPositivo + '\'' +
+                    ", arrayArtículos=" + arrayArtículos +
+                    '}';
         }
     
     }
